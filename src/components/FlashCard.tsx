@@ -11,7 +11,7 @@ const FlashCard = () => {
 	return (
 		<div className="max-w-[40rem] mx-auto cursor-pointer">
 			<div
-				className="relative w-fit my-8"
+				className="relative w-fit my-8 mx-auto"
 				onClick={() => setIsClicked(!isClicked)}
 			>
 				<div
