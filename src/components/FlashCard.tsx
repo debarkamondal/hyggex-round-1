@@ -35,7 +35,7 @@ const FlashCard = () => {
 				<div
 					// onClick={() => setIsClicked(!isClicked)}
 					className={cn(
-						"transition-all duration-1000 top-0 bg-gradient-to-tr from-cyan-700 to-cyan-900 min-w-[36rem] min-h-96 rounded-3xl flex justify-center items-center text-white font-semibold text-2xl ",
+						"transition-all duration-1000 top-0 bg-gradient-to-tr from-cyan-700 to-cyan-900 min-w-[36rem] min-h-96 rounded-3xl flex justify-center items-center text-white font-semibold text-2xl mx-auto",
 						!isClicked ? "[transform:rotateY(180deg)] " : "rotate-0"
 					)}
 				>
